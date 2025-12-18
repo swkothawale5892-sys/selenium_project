@@ -1,0 +1,18 @@
+<suite name="Suite">
+    <test name="Test" thread-count="5">
+
+        <groups>
+            <run>
+                <exclude name="car"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="pack.Class4"/>
+            <class name="pack.Class3"/>
+            <class name="pack.Class2"/>
+            <class name="pack.Class1"/>
+        </classes>
+
+    </test>
+</suite>
